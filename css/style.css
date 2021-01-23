@@ -1,0 +1,645 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+/* Global Css start*/
+
+
+
+
+/* Global Css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header section start */
+.header{
+    width: 100%;
+    background: url(../images/g1.png)center top no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+}
+.navbar-light .navbar-brand img{
+    width: 100px;
+    color: black;
+}
+
+.header .bg-light{
+    background: transparent !important;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+
+.header .nav-item .img-fluid{
+    width: 100px;
+    height: 80px;
+    margin-right: 220px;
+}
+
+/* Header section end */
+
+/* banner section start */
+
+.banner{
+    width: 100%;
+}
+
+.banner .inner-banner{
+    width: 100%;
+    padding: 200px 0px;
+    text-align: center;
+
+}
+
+.header .banner .inner-banner-text h1 {
+    font-size: 53px;
+    line-height: 63px;
+    font-weight: 800;
+    color: #e58f00;
+    text-transform: capitalize;
+    margin-left: -50px;
+
+
+}
+.header .banner .inner-banner-text p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.header .banner .inner-banner-text .btn-primary{
+    padding: 05px 15px;
+    background:#e58f00;
+    border: 1px solid #e58f00;
+    border-radius: 5px;
+    color: #313035;
+    margin-left: -259px;
+}
+.header .inner-banner-text span{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.header .inner-banner-text .btn-primary:hover,.header.inner-banner-text .btn-primary:focus{
+    background:transparent;
+    border: 1px solid #e58f00;
+    border-radius: 5px;
+    color: #fff;
+}
+/* banner section end */
+
+/* About-us section start */
+.about-us{
+    padding: 80px 0px;
+    background: #000;
+}
+.about-us .inner-about img{
+    width: 100%;
+}
+
+.about-us .inner-about-text h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 120px;
+
+}
+.about-us .inner-about-text p{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 20px;
+
+}
+/* About-us section end */
+
+/* Quality section start */
+
+.special-quality{
+
+}
+.about-us .special-quality{
+    width: 100%;
+    background: url(../images/Group\ 3.png) center top no-repeat;
+    background-size: cover;
+}
+
+.special-quality .inner-quality-center h1 {
+    font-size: 61px;
+    line-height: 52px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 367px;
+    padding-left: 100px;
+}
+
+.special-quality .inner-quality-center P {
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 810px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+
+/* Quality section end */
+
+/* Gallery section start  */
+.gallery {
+    padding: 80px 0px;
+    background: #000;
+}
+.gallery .inner-gallery img{
+    height: 200px;
+    width: 200px;
+
+}
+.gallery .owl-carousel .item{
+    padding: 20px;
+
+}
+.gallery .inner-gallery-text h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Gallery section end  */
+
+
+/*Enjoy section start  */
+.enjoy{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/Gro5.png) center top no-repeat;
+    background-size: cover;
+}
+.enjoy .inner-enjoy-text h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 150px;
+}
+.enjoy .inner-enjoy-text p{
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Enjoy section end */
+
+/*Menu section start */
+.menu{
+    padding: 10px 0px;
+    background: #000;
+}
+.menu .inner-menu-text h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.menu .owl-carousel .item h4{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 800;
+    color: #e58f00;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 10px 0px;
+}
+.menu .owl-carousel .item p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+}
+.menu .owl-carousel .item h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #e58f00;
+    text-align: left;
+}
+.menu .inner-top-footer-image{
+    padding: 248px 0px;
+    background: url(../images/Group\ 7.png)center top no-repeat;
+    background-size: cover;
+}
+
+
+/* Menu section end */
+
+/* footer section start */
+
+.footer-section{
+    width: 100%;
+    padding: 30px 0px;
+    background: url(../images/fll.png) center top no-repeat;
+    background-size: cover;
+}
+.fl-image{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.inner-footer{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-section .inner-footer li{
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+.inner-icon{
+    width: 100%;
+    text-align: center;
+}
+.inner-icon li{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #e58f00;
+    border-radius: 100%;
+    background:  #e58f00;
+    transition: 1s;
+    margin-right: 10px;
+
+}
+.inner-icon li:hover,.inner-icon li:focus{
+    border: 1px solid #e58f00;
+    border-radius: 100%;
+    background:  #fff;
+    color:#e58f00 ;
+    cursor: pointer;
+}
+
+/* footer section end */
+
+
+
+
+
+
+
+
+
+
+
+  /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .menu .owl-carousel .item h5 {
+        font-size: 15px;
+        font-weight: 700;
+        color: #e58f00;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+    .menu .inner-top-footer-image {
+        padding: 247px 0px;
+        background: url(../images/Group\ 7.png)center top no-repeat;
+        background-size: cover;
+    }
+
+
+  }
+
+  /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .header{
+        background: url(../images/UD\ 1.png)center top no-repeat;
+        background-size: cover;
+        min-height: 700px;
+    }
+    .header .banner .inner-banner-text h1 {
+        font-size: 66px;
+        line-height: 76px;
+        margin-left: 342px;
+        font-weight: 800;
+        color: #e58f00;
+        text-transform: capitalize;
+        padding-top: 300px;
+    }
+    .header .banner .inner-banner-text p {
+        font-size: 22px;
+        line-height: 43px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 441px;
+        padding-top: 18px;
+        text-align: left;
+    }
+    .header .banner .inner-banner-text .btn-primary {
+        padding: 9px 20px;
+        background: #e58f00;
+        border: 1px solid #e58f00;
+        border-radius: 5px;
+        color: #313035;
+        margin-left: 68px;
+    }
+    .header .banner .inner-banner-text .btn-primary:hover,
+    .header .banner .inner-banner-text .btn-primary:focus{
+        background: #FFF;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        color: #000;
+    }
+    .enjoy .inner-enjoy-text h1 {
+        font-size: 42px;
+        line-height: 52px;
+        font-weight: 800;
+        color: #fff;
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 0px;
+        padding-top: 80px;
+    }
+    .menu .owl-carousel .item h5 {
+        font-size: 15px;
+        font-weight: 700;
+        color: #e58f00;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+
+
+
+  }
+
+  /*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .header{
+        background: url(../images/UD.png)center top no-repeat;
+        background-size: cover;
+        min-height: 700px;
+    }
+    .header .banner .inner-banner-text h1 {
+        font-size: 27px;
+        line-height: 36px;
+        margin-left: 70px;
+        font-weight: 800;
+        color: #e58f00;
+        text-transform: capitalize;
+    }
+    .header .banner .inner-banner-text p {
+        font-size: 10px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 120px;
+        padding-top: 05px;
+    }
+    .header .banner .inner-banner-text .btn-primary {
+        padding: 05px 15px;
+        background: #e58f00;
+        border: 1px solid #e58f00;
+        border-radius: 5px;
+        color: #313035;
+        margin-left: 30px;
+    }
+
+
+
+
+  }
+
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .header{
+        background: url(../images/UD.png)center top no-repeat;
+        background-size: cover;
+        min-height: 700px;
+    }
+    .navbar-light .navbar-toggler{
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+        margin-right: 60px;
+    }
+    .header .banner .inner-banner-text h1 {
+        font-size: 27px;
+        line-height: 36px;
+        margin-left: 70px;
+        font-weight: 800;
+        color: #e58f00;
+        text-transform: capitalize;
+    }
+    .header .banner .inner-banner-text p {
+        font-size: 10px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 159px;
+        padding-top: 05px;
+        padding-bottom: 0px;
+        text-align: left;
+    }
+
+    .header .banner .inner-banner-text .btn-primary {
+        padding: 05px 15px;
+        background: #e58f00;
+        border: 1px solid #e58f00;
+        border-radius: 5px;
+        color: #313035;
+        margin-left: 30px;
+    }
+    
+  }
+
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .header{
+        background: url(../images/UD.png)center top no-repeat;
+        background-size: cover;
+        min-height: 700px;
+    }
+    .navbar-light .navbar-brand img{
+        width: 100px;
+    }
+    .bg-light {
+        background-color: #000!important;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+        margin-right: 0px;
+    }
+    .header .banner .inner-banner-text h1 {
+        font-size: 27px;
+        line-height: 36px;
+        margin-left: 88px;
+        font-weight: 800;
+        color: #e58f00;
+        text-transform: capitalize;
+    }
+    .header .banner .inner-banner-text p {
+        font-size: 10px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 137px;
+        padding-top: 05px;
+        padding-bottom: 0px;
+        text-align: left;
+    }
+    .header .banner .inner-banner-text .btn-primary {
+        padding: 05px 15px;
+        background: #e58f00;
+        border: 1px solid #e58f00;
+        border-radius: 5px;
+        color: #313035;
+        margin-left: 45px;
+    }
+    .about-us .inner-about-text h1 {
+        font-size: 33px;
+        line-height: 52px;
+        font-weight: 800;
+        color: #fff;
+        text-transform: capitalize;
+        padding-top: 49px;
+    }
+    .about-us .inner-about-text p {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #fff;
+        padding-top: 1px;
+    }
+    .special-quality .inner-quality-center h1 {
+        font-size: 25px;
+        line-height: 52px;
+        font-weight: 800;
+        color: #fff;
+        text-transform: capitalize;
+        padding-top: 100px;
+        padding-left: 18px;
+    }
+    .special-quality .inner-quality-center P{
+        font-size: 9px;
+        line-height: 13px;
+        font-weight: 600;
+        color: #000;
+        padding-bottom: 170px;
+        padding-top: 0px;
+        padding-left: 19px;
+    }
+    .enjoy .inner-enjoy-text h1 {
+        font-size: 27px;
+        line-height: 52px;
+        font-weight: 800;
+        color: #fff;
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 1px;
+        padding-top: 24px;
+    }
+    .enjoy .inner-enjoy-text p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #fff;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .menu .inner-top-footer-image {
+        padding: 106px 0px;
+        background: url(../images/Group\ 7.png)center top no-repeat;
+        background-size: cover;
+    }
+  }
+
+
+
